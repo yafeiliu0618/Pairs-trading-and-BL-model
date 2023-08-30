@@ -24,7 +24,6 @@ def find_cointegrated_pairs(dataframe, critial_value=0.05):
 
     return sorted_pairs[:7]  # Return the top 7 pairs
 
-# Assuming you have loaded historical price data into a DataFrame called 'price_data'
 
 
 
