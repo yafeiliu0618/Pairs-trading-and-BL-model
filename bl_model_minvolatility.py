@@ -8,10 +8,7 @@ from pypfopt.efficient_frontier import EfficientFrontier
 warnings.filterwarnings('ignore')
 
 def black_litterman_portfolio(coint_start_day, coint_end_day, df_ret,folder_path1,folder_path2,t1,t2,t3,t4,t5,t6):
-    # The existing code here, but replace all references to coint_start_day, coint_end_day, and df_ret
-    # with the function arguments.
-    # ...
-    # ...
+    
     
     end_day_index = df_ret.index.get_loc(coint_end_day)
     num = np.size(df_ret.index)
